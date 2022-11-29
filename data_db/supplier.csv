@@ -1,0 +1,92 @@
+id,name,email,country,city,address,debt,parent_id
+1,Alfreds Futterkiste,Alfreds@Futterkiste.com,Germany,Berlin,Obere Str. 57,0.00,
+2,Ana Trujillo Emparedados y helados,AnaTrujillo@Emparedados.com,Mexico,México D.F.,Avda. de la Constitución 2222,0.00,
+3,Antonio Moreno Taquería,Antonio@Moreno.com,Mexico,México D.F.,Mataderos  2312,0.00,
+4,Around the Horn,AroundTheHorn@aaa.com,UK,London,120 Hanover Sq.,0.00,1
+5,Berglunds snabbköp,Berglunds@snabbköp.io,Sweden,Luleå,Berguvsvägen  8,0.00,2
+6,Blauer See Delikatessen,BlauerDelikatessen@www.com,Germany,Mannheim,Forsterstr. 57,0.00,3
+7,Blondesddsl père et fils,Blondesddsl@ppp.com,France,Strasbourg,"24, place Kléber",0.00,4
+8,Bólido Comidas preparadas,Bólido_Comidas@preparadas.com,Spain,Madrid,"C/ Araquil, 67",0.00,5
+9,Bon app',Bon_app@io.com,France,Marseille,"12, rue des Bouchers",0.00,6
+10,Bottom-Dollar Markets,Bottom_Dollar@Markets.com,Canada,Tsawassen,23 Tsawassen Blvd.,0.00,7
+11,B's Beverages,B's_Beverages@mmm.com,UK,London,Fauntleroy Circus,0.00,9
+12,Cactus Comidas para llevar,Cactus_Comidas@mm.com,Argentina,Buenos Aires,Cerrito 333,0.00,7
+13,Centro comercial Moctezuma,Centro_Moctezuma@aa.com,Mexico,México D.F.,Sierras de Granada 9993,0.00,8
+14,Chop-suey Chinese,Chop_suey_Chinese@ccc.com,Switzerland,Bern,Hauptstr. 29,0.00,8
+15,Comércio Mineiro,Comércio_Mineiro@www.com,Brazil,Sao Paulo,"Av. dos Lusíadas, 23",0.00,4
+16,Consolidated Holdings,Consolidated_Holdings@www.com,UK,London,Berkeley Gardens 12  Brewery,0.00,6
+17,Drachenblut Delikatessen,Drachenblut_Delikatessen@www.com,Germany,Aachen,Walserweg 21,0.00,
+18,Du monde entier,Du_monde_entier@aaa.com,France,Nantes,"67, rue des Cinquante Otages",0.00,17
+19,Eastern Connection,Eastern_Connection@eee.com,UK,London,35 King George,0.00,17
+20,Ernst Handel,Ernst_Handel@iii.com,Austria,Graz,Kirchgasse 6,0.00,19
+21,Familia Arquibaldo,Familia_Arquibaldo@lll.com,Brazil,Sao Paulo,"Rua Orós, 92",0.00,19
+22,FISSA Fabrica Inter. Salchichas S.A.,FISSA@lll.com,Spain,Madrid,"C/ Moralzarzal, 86",0.00,18
+23,Folies gourmandes,Folies_gourmandes@lll.com,France,Lille,"184, chaussée de Tournai",0.00,19
+24,Folk och fä HB,Folk@lll.com,Sweden,Bräcke,Åkergatan 24,0.00,12
+25,Frankenversand,Frankenversand@lll.com,Germany,München,Berliner Platz 43,0.00,21
+26,France restauration,France_rest@lll.com,France,Nantes,"54, rue Royale",0.00,23
+27,Franchi S.p.A.,Franchi_SpA@lll.com,Italy,Torino,Via Monte Bianco 34,0.00,2
+28,Furia Bacalhau e Frutos do Mar,Furia_Bacalhau@lll.com,Portugal,Lisboa,Jardim das rosas n. 32,0.00,15
+29,Galería del gastrónomo,Galería_gastrónomo@lll.com,Spain,Barcelona,"Rambla de Cataluña, 23",0.00,21
+30,Godos Cocina Típica,Godos_Cocina_Típica@lll.com,Spain,Sevilla,"C/ Romero, 33",0.00,5
+31,Gourmet Lanchonetes,Gourmet_Lanchonetes@lll.com,Brazil,Campinas,"Av. Brasil, 442",0.00,24
+32,Great Lakes Food Market,Great_Lakes@lll.com,USA,Eugene,2732 Baker Blvd.,0.00,16
+33,GROSELLA-Restaurante,GROSELLA@lll.com,Venezuela,Caracas,5ª Ave. Los Palos Grandes,0.00,27
+34,Hanari Carnes,Hanari_Carnes@lll.com,Brazil,Rio de Janeiro,"Rua do Paço, 67",0.00,15
+35,HILARION-Abastos,HILARION_Abastos@lll.com,Venezuela,San Cristóbal,Carrera 22 con Ave. Carlos Soublette #8-35,0.00,6
+36,Hungry Coyote Import Store,Hungry_Coyote@lll.com,USA,Elgin,City Center Plaza 516 Main St.,0.00,27
+37,Hungry Owl All-Night Grocers,Hungry_Owl@lll.com,Ireland,Cork,8 Johnstown Road,0.00,
+38,Island Trading,Island_Trading@lll.com,UK,Cowes,Garden House Crowther Way,0.00,
+39,Königlich Essen,Königlich_Essen@lll.com,Germany,Brandenburg,Maubelstr. 90,0.00,38
+40,La corne d'abondance,La_corne@lll.com,France,Versailles,"67, avenue de l'Europe",0.00,19
+41,La maison d'Asie,La_maison@lll.com,France,Toulouse,1 rue Alsace-Lorraine,0.00,27
+42,Laughing Bacchus Wine Cellars,Laughing_Bacchus@lll.com,Canada,Vancouver,1900 Oak St.,0.00,36
+43,Lazy K Kountry Store,Lazy_K@lll.com,USA,Walla Walla,12 Orchestra Terrace,0.00,15
+44,Lehmanns Marktstand,Lehmanns_Marktstand@lll.com,Germany,Frankfurt a.M.,Magazinweg 7,0.00,35
+45,Let's Stop N Shop,Let_Stop@lll.com,USA,San Francisco,87 Polk St. Suite 5,0.00,32
+46,LILA-Supermercado,LILA@lll.com,Venezuela,Barquisimeto,Carrera 52 con Ave. Bolívar #65-98 Llano Largo,0.00,
+47,LINO-Delicateses,LINO@lll.com,Venezuela,I. de Margarita,Ave. 5 de Mayo Porlamar,0.00,16
+48,Lonesome Pine Restaurant,Lonesome_Pine@lll.com,USA,Portland,89 Chiaroscuro Rd.,0.00,24
+49,Magazzini Alimentari Riuniti,Magazzini_Alimentari@lll.com,Italy,Bergamo,Via Ludovico il Moro 22,0.00,40
+50,Maison Dewey,Maison@lll.com,Belgium,Bruxelles,Rue Joseph-Bens 532,0.00,
+51,Mère Paillarde,Mère_Paillarde@lll.com,Canada,Montréal,43 rue St. Laurent,0.00,16
+52,Morgenstern Gesundkost,Morgenstern_Gesundkost@lll.com,Germany,Leipzig,Heerstr. 22,0.00,18
+53,North/South,North_South@lll.com,UK,London,South House 300 Queensbridge,0.00,26
+54,Océano Atlántico Ltda.,Océano_Atlántico@lll.com,Argentina,Buenos Aires,Ing. Gustavo Moncada 8585 Piso 20-A,0.00,21
+55,Old World Delicatessen,Old_World@lll.com,USA,Anchorage,2743 Bering St.,0.00,19
+56,Ottilies Käseladen,Ottilies@lll.com,Germany,Köln,Mehrheimerstr. 369,0.00,42
+57,Paris spécialités,Paris@lll.com,France,Paris,"265, boulevard Charonne",0.00,49
+58,Pericles Comidas clásicas,Pericles_Comidas@lll.com,Mexico,México D.F.,Calle Dr. Jorge Cash 321,0.00,
+59,Piccolo und mehr,Piccolo@lll.com,Austria,Salzburg,Geislweg 14,0.00,
+60,Princesa Isabel Vinhos,Princesa_Isabel@lll.com,Portugal,Lisboa,Estrada da saúde n. 58,0.00,58
+61,Que Delícia,Que_Delícia@lll.com,Brazil,Rio de Janeiro,"Rua da Panificadora, 12",0.00,59
+62,Queen Cozinha,Queen_Cozinha@lll.com,Brazil,Sao Paulo,"Alameda dos Canàrios, 891",0.00,60
+63,QUICK-Stop,QUICK@lll.com,Germany,Cunewalde,Taucherstraße 10,0.00,61
+64,Rancho grande,Rancho@lll.com,Argentina,Buenos Aires,Av. del Libertador 900,0.00,60
+65,Rattlesnake Canyon Grocery,Rattlesnake_Canyon@lll.com,USA,Albuquerque,2817 Milton Dr.,0.00,42
+66,Reggiani Caseifici,Reggiani_Caseifici@lll.com,Italy,Reggio Emilia,Strada Provinciale 124,0.00,20
+68,Richter Supermarkt,Richter_Supermarkt@lll.com,Switzerland,Genève,Grenzacherweg 237,0.00,
+67,Ricardo Adocicados,Ricardo_Adocicados@lll.com,Brazil,Rio de Janeiro,"Av. Copacabana, 267",0.00,25
+69,Romero y tomillo,Romero@lll.com,Spain,Madrid,"Gran Vía, 1",0.00,24
+70,Santé Gourmet,Santé_Gourmet@lll.com,Norway,Stavern,Erling Skakkes gate 78,0.00,17
+71,Save-a-lot Markets,SaveMarkets@lll.com,USA,Boise,187 Suffolk Ln.,0.00,25
+72,Seven Seas Imports,Seven_Seas@lll.com,UK,London,90 Wadhurst Rd.,0.00,29
+73,Simons bistro,Simons_bistro@lll.com,Denmark,Kobenhavn,Vinbæltet 34,0.00,70
+74,Spécialités du monde,Spécialités@lll.com,France,Paris,"25, rue Lauriston",0.00,19
+75,Split Rail Beer & Ale,Split_Rail@lll.com,USA,Lander,P.O. Box 555,0.00,50
+76,Suprêmes délices,Suprêmes@lll.com,Belgium,Charleroi,"Boulevard Tirou, 255",0.00,22
+77,The Big Cheese,The_Big_Cheese@lll.com,USA,Portland,89 Jefferson Way Suite 2,0.00,49
+78,The Cracker Box,The_Cracker_Box@lll.com,USA,Butte,55 Grizzly Peak Rd.,0.00,57
+79,Toms Spezialitäten,Toms_Spezialitäten@lll.com,Germany,Münster,Luisenstr. 48,0.00,77
+80,Tortuga Restaurante,TortugaRestaurante@lll.com,Mexico,México D.F.,Avda. Azteca 123,0.00,26
+81,Tradição Hipermercados,TradiçãoHipermercados@lll.com,Brazil,Sao Paulo,"Av. Inês de Castro, 414",0.00,22
+82,Trail's Head Gourmet Provisioners,TrailHeadGourmetProvisioners@lll.com,USA,Kirkland,722 DaVinci Blvd.,0.00,
+83,Vaffeljernet,Vaffeljernet@lll.com,Denmark,Århus,Smagsloget 45,0.00,82
+84,Victuailles en stock,Victuailles@lll.com,France,Lyon,"2, rue du Commerce",0.00,82
+85,Vins et alcools Chevalier,VinsChevalier@lll.com,France,Reims,59 rue de l'Abbaye,0.00,83
+86,Die Wandernde Kuh,DieWanderndeKuh@lll.com,Germany,Stuttgart,Adenauerallee 900,0.00,
+87,Wartian Herkku,WartianHerkku@lll.com,Finland,Oulu,Torikatu 38,0.00,84
+88,Wellington Importadora,WellingtonImportadora@lll.com,Brazil,Resende,"Rua do Mercado, 12",0.00,38
+89,White Clover Markets,WhiteCloverMarkets@lll.com,USA,Seattle,305 - 14th Ave. S. Suite 3B,0.00,37
+90,Wilman Kala,WilmanKala@lll.com,Finland,Helsinki,Keskuskatu 45,0.00,37
+91,Wolski  Zajazd,WolskiZajazd@lll.com,Poland,Warszawa,ul. Filtrowa 68,0.00,50
