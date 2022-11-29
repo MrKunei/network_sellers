@@ -6,7 +6,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
-        with open('user.csv', encoding='utf-8') as file:
+        with open('data_db/user.csv', encoding='utf-8') as file:
             data = csv.DictReader(file)
 
             for d in data:

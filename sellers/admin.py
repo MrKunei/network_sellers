@@ -16,7 +16,7 @@ def clear_debt(modeladmin, request, queryset):
 
 
 class SellerAdmin(ModelAdmin):
-    list_display = ('name', 'email', 'copy_btn', 'employees', 'parent_link', 'level', 'debt', 'created',)
+    list_display = ('name', 'email', 'copy_btn', 'employees', 'parent_link', 'level', 'debt',)
     list_display_links = ('name',)
     list_filter = ('city',)
     search_fields = ('name',)
@@ -31,8 +31,7 @@ class SellerAdmin(ModelAdmin):
     parent_link.short_description = 'supplier'
 
     def copy_btn(self, obj):
-        return format_html('<input type="button" value="copy email"></button>')
-    # "<button onclick='toClipboard(this)' class='btn2'>COPY</button>"
+         return format_html('<input type="button" class="btn" value="copy email"></button>')
     copy_btn.short_description = 'copy email'
 
 

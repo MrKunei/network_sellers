@@ -1,6 +1,6 @@
 from random import randint
 from celery import shared_task
-from django.core.mail import EmailMessage, send_mail
+from django.core.mail import EmailMessage
 from sellers.models import Seller
 
 
