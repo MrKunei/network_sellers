@@ -27,7 +27,7 @@ def reduce_debt_seller():
 @shared_task
 def update_seller_debt(data):
     for d in data:
-        seller = Seller.objects.get(id=d['pk'])
+        seller = Seller.objects.get(id=d)
         seller.debt = 0.00
         seller.save()
 

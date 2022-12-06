@@ -19,7 +19,8 @@ class ProductViewSet(ModelViewSet):
 
 
 class SellerListView(ListAPIView):
-    queryset = Seller.objects.all()
+    queryset = Seller.objects.prefetch_related('products').\
+        select_related('employees').select_related('parent').all()
     serializer_class = SellerSerializer
     permission_classes = [APIPermission]
 
@@ -62,7 +63,9 @@ class SellerDeleteView(DestroyAPIView):
 
 class SellerStatView(ListAPIView):
     avg_debt = Seller.objects.aggregate(Avg('debt'))
-    queryset = Seller.objects.all().filter(debt__gte=avg_debt['debt__avg'])
+    queryset = Seller.objects.filter(debt__gte=avg_debt['debt__avg']).\
+        prefetch_related('products').select_related('employees').select_related('parent').all()
+
     serializer_class = SellerSerializer
     permission_classes = [APIPermission]
 

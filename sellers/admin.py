@@ -11,8 +11,8 @@ def clear_debt(modeladmin, request, queryset):
     if len(queryset) < 20:
         queryset.update(debt=0)
     else:
-        data = serializers.serialize('json', queryset)
-        update_seller_debt.delay(data)
+        data_list_id = [x.id for x in queryset]
+        update_seller_debt.delay(data_list_id)
 
 
 class SellerAdmin(ModelAdmin):
