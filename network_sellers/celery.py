@@ -9,26 +9,17 @@ app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
 
 
-# app.conf.beat_schedule = {
-#     'add-every-three-hours': {
-#         'task': 'sellers.tasks.add_debt_seller',
-#         'schedule': crontab(hour='*/3', minute=0),
-#     },
-#     'reduce-every-day': {
-#         'task': 'sellers.tasks.reduce_debt_seller',
-#         'schedule': crontab(hour=6, minute=30),
-#     },
-# }
-
-
 app.conf.beat_schedule = {
     'add-every-three-hours': {
         'task': 'sellers.tasks.add_debt_seller',
-        'schedule': crontab(minute='*/1'),
+        'schedule': crontab(hour='*/3', minute=0),
     },
     'reduce-every-day': {
         'task': 'sellers.tasks.reduce_debt_seller',
-        'schedule': crontab(minute='*/10'),
+        'schedule': crontab(hour=6, minute=30),
     },
 }
+
+
+
 
